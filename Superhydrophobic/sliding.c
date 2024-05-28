@@ -63,7 +63,7 @@ event init(t = 0)
     system(comm);
 
     char filename[60];
-    sprintf(filename,"Bo0.1.dat");
+    sprintf(filename,"fDrop.dat");
     FILE * fp = fopen(filename,"rb");
     if (fp == NULL){
       fprintf(ferr, "There is no file named %s\n", filename);
